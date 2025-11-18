@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #333;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background: #fff7ee;
+}
+header nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 50px;
+    background: #ffe7c4;
+    overflow: hidden;
+}
+.hero-text h1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+.hero-text p {
+    font-size: 18px;
+}
+.popular {
+    padding: 50px;
+}
+.popular h2 {
+    font-size: 28px;
+}
+.card-list {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+.card {
+    background: #fff;
+    padding: 15px;
+    border-radius: 15px;
+    width: 200px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+.steps, .about, .menu, .testimonials, .subscribe {
+    padding: 50px;
+}
+.step-list {
+    display: flex;
+    justify-content: space-between;   
+    gap: 40px;                 
+    margin-top: 20px;
+}
+
+.step {
+    text-align: center;
+}
+
+.step img {
+    width: 80px;               
+}
+
+.about {
+    text-align: center;
+}
+
+.about p {
+    display: flex;
+    justify-content: space-between; 
+}
+.about img {
+    width: 359.13153076171875px;
+    height: 497.66522216796875px;
+    top: 1832.78px;
+    left: 242.81px;
+    opacity: 1;
+    border-radius: 12px;
+}
+.menu {
+    width: 368;
+height: 53.17431640625;
+top: 2519px;
+left: 147px;
+opacity: 1;
+color: #000000;
+}
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px; 
+    max-width: 900px;
+    margin: auto;
+}
+
+.menu-grid img {
+    width: 100%;
+    height: 180px;          
+    object-fit: cover;      
+    border-radius: 12px;
+}
+
